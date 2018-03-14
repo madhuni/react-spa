@@ -7,9 +7,9 @@ const navigationHeader = (props) => {
     <header className="header">
       <nav className="nav">
         <ul className="nav-list">
-          <li><NavLink exact to='/'>Home</NavLink></li>
-          <li><NavLink to='/about'>About</NavLink></li>
-          <li><NavLink to='/staff'>Staff</NavLink></li>
+          <li className="list-item"><NavLink exact to='/'>Home</NavLink></li>
+          <li className="list-item"><NavLink to='/about'>About</NavLink></li>
+          <li className="list-item"><NavLink to='/staff'>Staff</NavLink></li>
         </ul>
       </nav>
     </header>

@@ -1,0 +1,15 @@
+#staff-page {
+  width: 100%;
+  padding: 5px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.staff-member {
+  font-size: 20px;
+}
+
+.staff-member:not(:last-child) {
+  margin-bottom: 10px;
+}
