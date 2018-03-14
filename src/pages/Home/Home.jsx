@@ -11,6 +11,10 @@ const home = (props) => {
         Dolores quam veniam asperiores. Officiis quibusdam cupiditate id quia.
         Repellendus natus atque cum fugiat voluptatem voluptates aliquid fuga! Ad praesentium assumenda ex?
       </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Dolores quam veniam asperiores.
+      </p>
     </div>
   );
 };
