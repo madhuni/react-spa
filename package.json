@@ -2,22 +2,26 @@
   "name": "react-single-page-application",
   "version": "0.1.0",
   "private": true,
-  "main": "main.js",
+  "main": "build/electron.js",
+  "description": "This is a simple Single Page Application built on React",
+  "updateUrl": "xxx",
+  "extends": null,
+  "homepage": "./",
   "dependencies": {
     "animated": "^0.2.2",
+    "electron-is-dev": "^0.3.0",
     "react": "^16.2.0",
-    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.2.0",
     "react-flip-move": "^3.0.1",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.1",
     "react-transition-group": "^2.2.1"
   },
+  "author": "Kanishka Mohan Madhuni",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "start-electron": "electron ./"
+    "eject": "react-scripts eject"
   }
 }
