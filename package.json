@@ -2,7 +2,7 @@
   "name": "react-single-page-application",
   "version": "0.1.0",
   "private": true,
-  "main": "build/electron.js",
+  "main": "./electron-dev.js",
   "description": "This is a simple Single Page Application built on React",
   "updateUrl": "xxx",
   "extends": null,
